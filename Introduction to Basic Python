@@ -1,0 +1,13 @@
+Set A
+      1 Write a python script to calculate the sum of digits of a given input number.
+                def getSum(n):
+                strr = str(n)
+                list_of_number = list(map(int, strr.strip()))
+                return sum(list_of_number)
+                n = 12345
+                print(getSum(n))
+    Output:
+              15
+              
+       2 2 Write python script to check whether a input number is Armstrong number or not.
+          
